@@ -1,0 +1,53 @@
+# Visual Studio 缓存和临时文件（核心：.vs 和 x64 是整个目录忽略）
+.vs/
+x64/
+x86/
+Debug/
+Release/
+ipch/
+
+# VS 用户特定文件和数据库（会被锁，必须忽略）
+*.suo
+*.user
+*.VC.db
+*.db-shm
+*.db-wal
+*.opendb
+*.db
+*.VC.opendb
+*.tlog
+*.log
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.exp
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# IDE 其他
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 敏感信息
+.env
+*.key
+*.pem
