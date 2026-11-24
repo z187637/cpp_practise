@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="learning_function.cpp" />
+    <ClCompile Include="learning_OOP.cpp" />
     <ClCompile Include="learning_smartP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
