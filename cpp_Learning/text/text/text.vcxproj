@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Learning_Const_Static.cpp" />
     <ClCompile Include="learning_function.cpp" />
     <ClCompile Include="learning_OOP.cpp" />
     <ClCompile Include="learning_smartP.cpp" />

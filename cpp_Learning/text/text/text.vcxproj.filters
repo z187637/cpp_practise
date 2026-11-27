@@ -24,5 +24,8 @@
     <ClCompile Include="learning_OOP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Learning_Const_Static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
